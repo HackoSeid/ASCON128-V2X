@@ -8,30 +8,22 @@ The project implements and evaluates the ASCON-128 authenticated encryption algo
 
 ---
 
-# Repository Structure
+## Repository Structure
 
-## rtl/
-
-Contains the Verilog RTL source files for the ASCON-128 implementation, including the core datapath, permutation logic, FSM control logic, and helper modules.
-
-## simulation/
-
-Contains simulation testbenches used for functional verification, throughput evaluation, and Known Answer Test (KAT) validation.
-
-## reports/
-
-Contains Vivado-generated synthesis and implementation reports, including:
-
-* Power reports
-* Timing reports
-* Utilization reports
-
-Reports are provided for both the Artix-7 and Alveo U280 FPGA platforms.
-
-## docs/
-
-Contains the final thesis PDF and related documentation.
-
+```text
+ASCON128-V2X/
+│
+├── rtl/
+│   └── Verilog RTL source files for the ASCON hardware core.
+│
+├── Simulations/
+│   └── Testbenches and simulation files used to verify correctness and measure performance.
+│
+├── Reports/
+│   └── Vivado synthesis, implementation, timing, utilization, and power reports.
+│
+└── README.md
+    └── Repository overview and folder description.
 ---
 
 # Tools Used
