@@ -36,7 +36,8 @@ Contains the final thesis PDF and related documentation.
 
 # Tools Used
 
-* Vivado 2024.1
+* Vivado 2023.2
+* SAIF File
 * Verilog HDL
 * Artix-7 FPGA
 * Alveo U280 FPGA
